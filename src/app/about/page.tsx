@@ -67,16 +67,16 @@ const AboutPage = () => {
               </div>
                 
                 <p className='text-gray-500 md:text-lg'>
-                  Hello! I'm Uche Omesu, a backend developer. I specialize in making sure everything runs smoothly behind the scenes. 
-                  Whether it's optimizing databases to perform like a finely tuned sports car or crafting APIs so slick they put butter to shame, I've got your back. 
+                  Hello! I&lsquo;m Uche Omesu, a backend developer. I specialize in making sure everything runs smoothly behind the scenes.
+                  Whether it&lsquo;s optimizing databases to perform like a finely tuned sports car or crafting APIs so slick they put butter to shame, I&lsquo;ve got your back.
                   <br />
-                  And when I'm not wrestling with code, you might catch me watching movies or listening to music. 
+                  And when I&lsquo;m not wrestling with code, you might catch me watching movies or listening to music. 
                 </p>
             </div>
 
             <div>
               <p className=" text-2xl font-bold border-b-4 border-gray-500 p-2 inline">Experience</p>
-              <p className="py-6 text-gray-500">These are the technologies i've worked with.</p>
+              <p className="py-6 text-gray-500">These are the technologies i&lsquo;ve worked with.</p>
             </div>
 
             <div className=" w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

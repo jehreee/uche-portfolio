@@ -40,7 +40,7 @@ export default function page() {
               </div>
 
               <div className="mx-auto mt-8 md:mt-0 w-2/3 md:w-80 border-4 border-sky-800 bg-sky-800">
-                <img src={mainAvi.src} alt="Uche Omesu Profile Image" className="  object-contain transform translate-x-5 translate-y-5"/>
+                <img src={mainAvi.src} alt='Uche Omesu Profile Image' className="  object-contain transform translate-x-5 translate-y-5"/>
               </div>
 
 

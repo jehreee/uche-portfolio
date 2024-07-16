@@ -58,7 +58,7 @@ const Projects = () => {
             projects.map((file) => (
               <div key={file.id} className='shadow-md shadow-gray-600 rounded-lg'>
                 <div></div>
-                <img src={file.src.src} alt="" className='rounded-md duration-200 hover:scale-105' onClick={() => setFile([file])}></img>
+                <img src={file.src.src} alt='' className='rounded-md duration-200 hover:scale-105' onClick={() => setFile([file])}></img>
 
                 <div className="flex items-center justify-center text-gray-500">
                   <a href={file.demo === "noDemo" ? "/error" : file.demo}>
