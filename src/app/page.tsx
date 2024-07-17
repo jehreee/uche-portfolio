@@ -9,9 +9,9 @@ export default function page() {
   return (
     <div>
       <section id="home">
-        <div className=" bg-zinc-950 md:bg-bgImage md:bg-cover w-full h-screen ">
-          <div className= "md:bg-black/70 h-full md:w-full md:h-full ">
-            <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-fit md:h-full py-11 px-4 md:flex-row">
+        <div className=" bg-gray-950 md:bg-bgImage md:bg-cover w-full h-full md:h-screen p-4 ">
+          <div className= "md:bg-black/70 h-full bg-gray-950 md:w-full md:h-full">
+            <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center  py-11 px-4 md:flex-row">
               <div className="flex flex-col justify-center h-full">
                 <h1 className="text-4xl font-bold text-center text-gray-300">Uchechukwu Omesu</h1>
                 <div className="flex flex-row items-center">
@@ -39,7 +39,7 @@ export default function page() {
                 </a>
               </div>
 
-              <div className="mx-auto mt-8 md:mt-0 w-2/3 md:w-80 border-4 border-sky-800 bg-sky-800">
+              <div className="mx-auto mt-20 md:mt-0 w-2/3 md:w-80 border-4 border-sky-800 bg-sky-800">
                 <img src={mainAvi.src} alt='Uche Omesu Profile Image' className="  object-contain transform translate-x-5 translate-y-5"/>
               </div>
 

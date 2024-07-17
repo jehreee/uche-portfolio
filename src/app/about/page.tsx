@@ -57,7 +57,7 @@ const AboutPage = () => {
     <div >
         
         <section id="experiences">
-        <div className=" bg-slate-950 w-full h-full ">
+        <div className=" bg-gray-950 w-full h-full ">
           
           <div className=" max-w-screen-lg flex flex-col mx-auto pt-20 sm:pt-12 p-4 justify-center h-fit w-full text-gray-300">
             

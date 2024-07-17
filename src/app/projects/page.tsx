@@ -27,6 +27,24 @@ const Projects = () => {
       description: "This is a simple weather App",
       date: "2024",
       technologies: "Python, MySQL"
+    },
+    {
+      id: 3,
+      src: reactWeather,
+      demo: "noDemo",
+      gitCode: "https://www.github.com/",
+      description: "This is a simple weather App",
+      date: "2024",
+      technologies: "Python, MySQL"
+    },
+    {
+      id: 4,
+      src: reactWeather,
+      demo: "noDemo",
+      gitCode: "https://www.github.com/",
+      description: "This is a simple weather App",
+      date: "2024",
+      technologies: "Python, MySQL"
     }
   ]
 
@@ -46,9 +64,9 @@ const Projects = () => {
 
 
   return (
-    <div className=' bg-gray-950 w-full h-screen'>
-      <div className=' max-w-screen-lg p-4  mx-auto flex flex-col justify-center'>
-        <div className=' pb-8 mt-12'>
+    <div className=' bg-gray-950 w-full h-full'>
+      <div className=' max-w-screen-lg p-4  mx-auto h-full flex flex-col justify-center'>
+        <div className=' pb-8 mt-11'>
           <h1 className='text-4xl text-gray-300 font-extrabold inline border-b-4 border-gray-500 text-center mt-10'>Projects</h1>
           <p className="py-6 text-gray-500">Check out some of my works right here.</p>
         </div>
