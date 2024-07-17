@@ -10,8 +10,8 @@ export default function page() {
     <div>
       <section id="home">
         <div className=" bg-gray-950 md:bg-bgImage md:bg-cover w-full h-full md:h-screen p-4 ">
-          <div className= "md:bg-black/70 h-full bg-gray-950 md:w-full md:h-full">
-            <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center  py-11 px-4 md:flex-row">
+          <div className= "md:bg-black/70  bg-gray-950 md:w-full h-full">
+            <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full py-11 px-4 md:flex-row">
               <div className="flex flex-col justify-center h-full">
                 <h1 className="text-4xl font-bold text-center text-gray-300">Uchechukwu Omesu</h1>
                 <div className="flex flex-row items-center">
