@@ -1,6 +1,6 @@
 import TransitionLink from "./components/TransitionLink";
 import { IoIosArrowForward } from "react-icons/io";
-import mainAvi from "../assets/UCHE.png";
+import mainAvi from "../assets/profile.jpg";
 
 
 export default function page() {
